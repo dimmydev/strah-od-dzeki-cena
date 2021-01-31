@@ -1,0 +1,45 @@
+[{
+	"naziv":"Strah od Džeki Čena - CD",
+	"slika":"pictures/09cd.png",
+	"cena":600	
+},
+{
+	"naziv":"Majica Bela",
+	"slika":"pictures/04tshirt.png",
+	"cena":1000	
+},
+{
+	"naziv":"Majica Crna",
+	"slika":"pictures/03tshirt.png",
+	"cena":1000	
+},
+{
+	"naziv":"Poster 1",
+	"slika":"pictures/05poster.png",
+	"cena":350	
+},
+{
+	"naziv":"Poster 2",
+	"slika":"pictures/06poster.png",
+	"cena":350	
+},
+{
+	"naziv":"Šolja 1",
+	"slika":"pictures/01mug.png",
+	"cena":250	
+},
+{
+	"naziv":"Šolja 2",
+	"slika":"pictures/02mug.png",
+	"cena":250	
+},
+{
+	"naziv":"Notes 1",
+	"slika":"pictures/07notebook.png",
+	"cena":200	
+},
+{
+	"naziv":"Notes 2",
+	"slika":"pictures/08notebook.png",
+	"cena":200	
+}]

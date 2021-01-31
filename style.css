@@ -1,0 +1,497 @@
+*
+{
+	margin:0px;
+	padding:0px;
+	font-family: Calibri, Arial;
+}
+body
+{
+	background:#21293b;
+}
+#header
+{
+	width:100%;
+	height:150px;
+	background-image:url('pictures/header.png');
+    background-size: 100% 100%;
+	position:fixed;
+	z-index:1;
+}
+.drzac {
+	margin:0px auto;	
+	width:1000px;
+}
+#logo
+{
+	width:95px;
+	height:97px;
+	padding-top:26px;
+	float:left;
+}
+#menu
+{
+	width:705px;
+	height:150px;
+	float:left;
+	text-align:center;
+}
+#menu ul li ul li a
+{
+	color:#5af8f4;
+	font-size:15px;
+}
+#menu ul li {
+  float: left;
+  display:inline;
+}
+#menu > ul{
+	list-style:none;
+	text-transform:uppercase;
+	padding-top:60px;
+	padding-left:20px;
+	position:absolute;
+}
+#menu ul li a
+{
+	text-decoration:none;
+	font-size:17px;
+	font-weight:bold;
+	letter-spacing:1px;
+	display: block;
+	padding: 5px;
+	width: 100px;
+}
+#menu ul li ul {
+  position: absolute;
+  left: -999em;
+  width: 100px;
+  border-left:1px solid #5af8f4;
+}
+#menu li:hover ul, #menu li ul:hover {
+  left:auto;
+}
+a:link
+{
+	color:#fff490;
+}
+a:visited
+{
+	color:#fff490;
+}
+a:hover
+{
+	color:#5af8f4;
+}
+.cleaner
+{
+	clear:both;
+}
+#headerDesno
+{
+	float:right;
+	width:200px;
+	height:150px;
+	text-align:center;
+}
+#headerDesno a
+{
+	padding:5px;
+}
+#headerDesno a img
+{
+	width:20px;
+	height:20px;
+	padding-top:62px;
+}
+#main
+{
+	min-height:1000px;
+	width:100%;
+}
+#footer
+{
+	width:100%;
+	height:100px;
+	background-image:url('pictures/footer.png');
+    background-size: 100% 100%;
+}
+#dokumentacija
+{
+	width:100%;
+	height:50px;
+}
+#dokumentacija h3
+{
+	text-align:center;
+	padding-top:25px;
+}
+#dokumentacija h3 a
+{
+	
+	text-decoration:none;
+}
+#copyright h4
+{
+	text-align:center;
+	color:#fff490;
+	padding-top:10px;
+}
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background: #5af8f4; 
+}
+::-webkit-scrollbar-thumb {
+    background: #fff490; 
+}
+/* index.html */
+#vesti
+{
+	height:200px;
+	padding-top:150px;
+}
+#vesti h1
+{
+	text-align:left;
+	padding-top:140px;
+	font-size:50px;
+	color:#fff490;
+}
+#sadrzaj
+{
+	border-top:1px solid #82815f;
+	border-bottom:1px solid #82815f;
+	height:500px;
+	overflow:auto;
+}
+.slikaTekst
+{
+	width:800px;
+	min-height:230px;
+	margin:0 auto;
+	margin-top:30px;
+}
+.sadrzajSlika
+{
+	width:300px;
+	height:200px;
+	float:left;
+}
+.sadrzajSlika img
+{
+	width:300px;
+	height:200px;
+}
+.sadrzajTekst{
+	width:470px;
+	min-height:200px;
+	float:right;
+	padding-left:30px;
+}
+.tekstNaslov
+{
+	width:470px;
+	/*height:70px;*/
+	margin-bottom: 20px;
+	color:#5af8f4;
+}
+.pasusTekst 
+{
+	width:470px;
+	min-height:60px;
+	color:#FFF;
+	font-weight:bold;
+}
+.pasusTekst a{
+	text-decoration:none;
+}
+.prikazi
+{
+	width:470px;
+	height:20px;
+	color:#fff490;
+	cursor: pointer;
+	margin-top: 10px;
+}
+.nevidljivo
+{
+	display:none;
+	color:#FFF;
+	font-weight:bold;
+}
+.nevidljivo a{
+	text-decoration:none;
+}
+/* kontakt.html */
+#menadzer {
+	padding-top:200px;
+	text-align:center;
+	height:200px;
+	border-bottom:1px solid #82815f;
+}
+#menadzer h3 {
+	color: white;
+}
+#menadzer h3 a {
+	color:#5af8f4;
+}
+#menadzer h1 {
+	color:#21293b;
+	background:#5af8f4;
+	width:300px;
+	height:50px;
+	margin:0 auto;
+	padding-top:10px;
+}
+#menadzer h3 a{
+	text-decoration:none;
+}
+#kontakt {
+	text-align:center;
+}
+#kontakt h1 {
+	padding-top:20px;
+	color:#fff490;
+}
+#forma form table {
+	margin:20px auto;
+	text-align:left;
+}
+#forma form table tr td {
+	width:160px;
+	color:#fff490;;
+}
+.regularniFalse {
+	display:none;
+	color: #f45f5f;
+}
+/* shop.html */
+#izbor {
+	padding-top:150px;
+	height:200px;
+}
+#filtriranje {
+	width:400px;
+	height:200px;
+	float:left;
+}
+#filtriranje form {
+	padding-top:50px;
+}
+#filtriranje form label {
+	color:#5af8f4;
+}
+#proizvod {
+	background: white;
+	height:25px;
+	border:3px solid #5af8f4;
+	border-radius:10px;
+	width:183px;
+}
+.dugme {
+	background:#5af8f4;
+	border:2px solid white;
+	border-radius:10px;
+	width:50px;
+	padding: 3px 0px;
+}
+#prikaz {
+	width:200px;
+	height:200px;
+	float:left;
+}
+.kolone {
+	margin-top:85px;
+	margin-left:47px;
+}
+
+.kolone:hover {
+	cursor: pointer;
+}
+#sortiranje {
+	width:400px;
+	height:200px;
+	float:right;
+}
+#sortiranje ul {
+	list-style:none;
+	text-align:center;
+	margin-top:89px;
+}
+#sortiranje ul li {
+	display:inline;
+	margin:0px 2px;
+	border:1px solid #5af8f4;
+	border-radius:10px;
+}
+#sortiranje ul li a{
+	text-decoration:none;
+	padding:6px;
+	color:#5af8f4;
+}
+.proizvod {
+	width: 30%;
+	margin-left:2.5%;
+	display:inline-block;
+}
+.proizvod h3 {
+	color:white;
+	text-align:center;
+	margin-bottom:15px;
+}
+.slika {
+	margin-bottom:70px;
+	text-align:center;
+}
+#cena {
+	width:133px;
+}
+#filter{
+	width:400px;
+}
+#filter tr td {
+	width:133px;
+	color:#5af8f4;
+	text-align:left;
+}
+/* autor.html */
+#autor {
+	width:1000px;
+	padding-top:150px;
+	text-align:center;
+}
+#autor h2 {
+	margin-top:50px;
+	color:#fff490;
+	
+}
+#autor h2 a {
+	text-decoration:none;
+}
+#autor>img {
+	margin-top:100px;
+}
+/* galerija.html */
+#galerijaNaslov
+{
+	height:100px;
+	padding-top:150px;
+}
+#galerijaNaslov h1
+{
+	text-align:left;
+	padding-top:40px;
+	font-size:50px;
+	color:#fff490;
+}
+.galerijaRed{
+	width:1000px;
+	height:202px;
+	display:inline-block;
+	border-top:1px solid #82815f;
+	border-bottom:1px solid #82815f;
+}
+.galerijaRed a{
+	margin:0px 15px;
+	float:left;
+}
+/* bend.html */
+.bendSadrzaj{
+	width:1000px;
+	min-height:500px;
+}
+#bendNaslov
+{
+	height:100px;
+	padding-top:150px;
+}
+#bendNaslov h1
+{
+	text-align:left;
+	padding-top:40px;
+	font-size:50px;
+	color:#fff490;
+}
+#istorijat{
+	border-top:1px solid #82815f;
+	border-bottom:1px solid #82815f;
+	padding: 15px 0px;
+}
+#istorijat p{
+	color:white;
+	font-weight:bold;
+}
+#slikaBend{
+	width:800px;
+	height:490px;
+	margin:30px auto;
+	border:1px solid #5af8f4;
+}
+/* diskografija.html */
+#diskografijaNaslov
+{
+	height:100px;
+	padding-top:150px;
+}
+#diskografijaNaslov h1
+{
+	text-align:left;
+	padding-top:40px;
+	font-size:50px;
+	color:#fff490;
+}
+#album{
+	height:500px;
+	width:1000px;
+	border-top:1px solid #82815f;
+	border-bottom:1px solid #82815f;
+}
+#cover{
+	width:500px;
+	height:500px;
+	float:left;
+}
+#cover img{
+	margin:0 auto;
+	display: block;
+	padding:50px 0px;
+}
+#tracks{
+	width:500px;
+	height:500px;
+	float:right;
+	text-align: center;
+	
+}
+#tracks h3{
+	padding-top:50px;
+	color:white;
+	font-weight:bold;
+}
+.trake
+{	padding-top:50px;
+	color:#5af8f4;
+}
+#spotovi{
+	width:1000px;
+	height:250px;
+	margin:20px auto;
+}
+#spotoviNaslov{
+	text-align:left;
+	font-size:50px;
+	color:#fff490;
+}
+#redSpot{
+	width:1000px;
+	height:170px;
+	margin-top:70px;
+}
+#redSpot iframe{
+	margin:0px 14px;
+	border:1px solid #5af8f4;
+}
+
+
+
